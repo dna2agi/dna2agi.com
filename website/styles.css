@@ -5,6 +5,8 @@ body, html {
     font-family: 'Helvetica', sans-serif; /* Helvetica is a clean, modern font similar to OpenAI's */
     color: white;
     background: url('transparent_background_image.png') no-repeat center center fixed;
+    -webkit-filter: grayscale(50%); /* Chrome, Safari, Opera */
+    filter: grayscale(50%); /* make the background image greyed out */
     background-size: cover;
     overflow: hidden;
 }
