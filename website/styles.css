@@ -27,13 +27,20 @@ body, html {
     -webkit-filter: grayscale(50%); /* Chrome, Safari, Opera */
     filter: grayscale(50%); /* make the background image greyed out */
     background-size: cover;
-    overflow: hidden;
+    /* overflow: hidden; */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh; /* Full height of the viewport */
 }
 
 .logo-container {
-    position: absolute;
+    /* position: absolute;
     top: 10px; /* Smaller logo size, similar to OpenAI or Squarespace */
-    left: 10px;
+    /* left: 10px; */
     display: inline-flex;
     align-items: center;
 }
@@ -50,12 +57,9 @@ body, html {
 }
 
 .main-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     width: 80%;
-    font-size: 1.5em; /* Bigger font size for main text */
+    margin-left: 10%;
+    font-size: 1.33em; /* Bigger font size for main text */
     color: white; /* Ensuring text is white */
     background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background for legibility */
     padding: 20px;
@@ -64,8 +68,6 @@ body, html {
 }
 
 .footer-link {
-    position: absolute;
-    bottom: 20px;
     width: 100%;
     text-align: center;
     font-size: 1em;
