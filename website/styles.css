@@ -1,3 +1,22 @@
+/* Styles for tablets */
+@media (max-width: 768px) {
+    .logo-container h1 {
+        font-size: 20px;
+    }
+    .main-text {
+        font-size: 1.2em;
+    }
+}
+
+/* Styles for mobile phones */
+@media (max-width: 480px) {
+    .logo-container h1 {
+        font-size: 18px;
+    }
+    .main-text {
+        font-size: 1em;
+    }
+}
 
 body, html {
     height: 100%;
@@ -62,3 +81,4 @@ body, html {
     color: #ccc;
     border-bottom: 1px solid #ccc; /* Change color on hover for visual feedback */
 }
+
