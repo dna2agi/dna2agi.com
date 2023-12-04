@@ -32,9 +32,9 @@ body, html {
 
 .logo-container {
     position: absolute;
-    top: 20px; /* Smaller logo size, similar to OpenAI or Squarespace */
-    left: 20px;
-    display: flex;
+    top: 10px; /* Smaller logo size, similar to OpenAI or Squarespace */
+    left: 10px;
+    display: inline-flex;
     align-items: center;
 }
 
