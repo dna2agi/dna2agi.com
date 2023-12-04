@@ -1,0 +1,62 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Helvetica', sans-serif; /* Helvetica is a clean, modern font similar to OpenAI's */
+    color: white;
+    background: url('transparent_background_image.png') no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.logo-container {
+    position: absolute;
+    top: 20px; /* Smaller logo size, similar to OpenAI or Squarespace */
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    height: 50px; /* Adjust as needed */
+}
+
+.logo-container h1 {
+    margin-left: 5px;
+    font-size: 24px; /* Adjust as needed */
+    font-weight: bold;
+    color: white;
+}
+
+.main-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    font-size: 1.5em; /* Bigger font size for main text */
+    color: white; /* Ensuring text is white */
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background for legibility */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.footer-link {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+}
+
+.footer-link a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white; /* Stylized underline for the link */
+}
+
+.footer-link a:hover {
+    color: #ccc;
+    border-bottom: 1px solid #ccc; /* Change color on hover for visual feedback */
+}
