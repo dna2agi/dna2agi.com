@@ -21,13 +21,12 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: 'Helvetica', sans-serif; /* Helvetica is a clean, modern font similar to OpenAI's */
+    font-family: 'Helvetica', sans-serif; 
     color: white;
     background: url('transparent_background_image.png') no-repeat center center fixed;
     -webkit-filter: grayscale(50%); /* Chrome, Safari, Opera */
     filter: grayscale(50%); /* make the background image greyed out */
     background-size: cover;
-    /* overflow: hidden; */
 }
 
 .container {
@@ -38,20 +37,17 @@ body, html {
 }
 
 .logo-container {
-    /* position: absolute;
-    top: 10px; /* Smaller logo size, similar to OpenAI or Squarespace */
-    /* left: 10px; */
     display: inline-flex;
     align-items: center;
 }
 
 .logo-container img {
-    height: 50px; /* Adjust as needed */
+    height: 50px; 
 }
 
 .logo-container h1 {
     margin-left: 5px;
-    font-size: 24px; /* Adjust as needed */
+    font-size: 24px; 
     font-weight: bold;
     color: white;
 }
@@ -59,9 +55,9 @@ body, html {
 .main-text {
     width: 80%;
     margin-left: 10%;
-    font-size: 1.33em; /* Bigger font size for main text */
-    color: white; /* Ensuring text is white */
-    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background for legibility */
+    font-size: 1.33em; 
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.8); 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
